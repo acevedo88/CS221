@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="15" ignored="0" total="18" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90" started-at="2019-03-04T21:33:08Z" finished-at="2019-03-04T21:33:09Z">
+    <groups>
+      <group name="valid">
+        <method signature="FormatCheckerTester.testValidFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testValidFiles" class="FormatCheckerTester"/>
+      </group> <!-- valid -->
+      <group name="dimensionMismatch">
+        <method signature="FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testDimensionMismatch" class="FormatCheckerTester"/>
+      </group> <!-- dimensionMismatch -->
+      <group name="notFound">
+        <method signature="FormatCheckerTester.testFileNotFound()[pri:0, instance:FormatCheckerTester@51081592]" name="testFileNotFound" class="FormatCheckerTester"/>
+      </group> <!-- notFound -->
+      <group name="inputMismatch">
+        <method signature="FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testInputMismatchFiles" class="FormatCheckerTester"/>
+      </group> <!-- inputMismatch -->
+    </groups>
+    <test name="Default test" duration-ms="90" started-at="2019-03-04T21:33:08Z" finished-at="2019-03-04T21:33:09Z">
+      <class name="FormatCheckerTester">
+        <test-method status="FAIL" signature="testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testDimensionMismatch" duration-ms="24" started-at="2019-03-04T21:33:08Z" data-provider="dimensionMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid2.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDimensionMismatch -->
+        <test-method status="FAIL" signature="testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testDimensionMismatch" duration-ms="2" started-at="2019-03-04T21:33:09Z" data-provider="dimensionMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid4.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDimensionMismatch -->
+        <test-method status="FAIL" signature="testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testDimensionMismatch" duration-ms="2" started-at="2019-03-04T21:33:09Z" data-provider="dimensionMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid5.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDimensionMismatch -->
+        <test-method status="FAIL" signature="testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testDimensionMismatch" duration-ms="2" started-at="2019-03-04T21:33:09Z" data-provider="dimensionMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid7.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDimensionMismatch -->
+        <test-method status="FAIL" signature="testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testDimensionMismatch" duration-ms="2" started-at="2019-03-04T21:33:09Z" data-provider="dimensionMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid9.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDimensionMismatch -->
+        <test-method status="FAIL" signature="testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testDimensionMismatch" duration-ms="1" started-at="2019-03-04T21:33:09Z" data-provider="dimensionMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid11.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDimensionMismatch -->
+        <test-method status="FAIL" signature="testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testDimensionMismatch" duration-ms="1" started-at="2019-03-04T21:33:09Z" data-provider="dimensionMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid12.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDimensionMismatch -->
+        <test-method status="FAIL" signature="testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testDimensionMismatch" duration-ms="2" started-at="2019-03-04T21:33:09Z" data-provider="dimensionMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid14.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testDimensionMismatch(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class DimensionMismatchException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDimensionMismatch -->
+        <test-method status="FAIL" signature="testFileNotFound()[pri:0, instance:FormatCheckerTester@51081592]" name="testFileNotFound" duration-ms="1" started-at="2019-03-04T21:33:09Z" finished-at="2019-03-04T21:33:09Z">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testFileNotFound()[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class java.nio.file.FileSystemNotFoundException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testFileNotFound()[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of type class java.nio.file.FileSystemNotFoundException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileNotFound -->
+        <test-method status="FAIL" signature="testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testInputMismatchFiles" duration-ms="1" started-at="2019-03-04T21:33:09Z" data-provider="inputMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid1.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputMismatchFiles -->
+        <test-method status="FAIL" signature="testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testInputMismatchFiles" duration-ms="2" started-at="2019-03-04T21:33:09Z" data-provider="inputMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid3.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputMismatchFiles -->
+        <test-method status="FAIL" signature="testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testInputMismatchFiles" duration-ms="1" started-at="2019-03-04T21:33:09Z" data-provider="inputMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid6.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputMismatchFiles -->
+        <test-method status="FAIL" signature="testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testInputMismatchFiles" duration-ms="1" started-at="2019-03-04T21:33:09Z" data-provider="inputMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid8.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputMismatchFiles -->
+        <test-method status="FAIL" signature="testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testInputMismatchFiles" duration-ms="1" started-at="2019-03-04T21:33:09Z" data-provider="inputMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid10.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputMismatchFiles -->
+        <test-method status="FAIL" signature="testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testInputMismatchFiles" duration-ms="1" started-at="2019-03-04T21:33:09Z" data-provider="inputMismatchFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid13.dat]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FormatCheckerTester.testInputMismatchFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592] should have thrown an exception of any of types [class java.lang.NumberFormatException, class java.util.InputMismatchException]
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:80)
+at org.testng.internal.Invoker.considerExceptions(Invoker.java:1140)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:615)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputMismatchFiles -->
+        <test-method status="PASS" signature="testValidFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testValidFiles" duration-ms="2" started-at="2019-03-04T21:33:09Z" data-provider="validFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid1.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidFiles -->
+        <test-method status="PASS" signature="testValidFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testValidFiles" duration-ms="2" started-at="2019-03-04T21:33:09Z" data-provider="validFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid2.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidFiles -->
+        <test-method status="PASS" signature="testValidFiles(java.lang.String)[pri:0, instance:FormatCheckerTester@51081592]" name="testValidFiles" duration-ms="1" started-at="2019-03-04T21:33:09Z" data-provider="validFiles" finished-at="2019-03-04T21:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid3.dat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidFiles -->
+      </class> <!-- FormatCheckerTester -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

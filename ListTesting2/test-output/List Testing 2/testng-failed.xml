@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [List Testing 2]">
+  <test thread-count="5" name="Good List(failed)">
+    <parameter name="listType" value="goodList"/>
+    <classes>
+      <class name="Test_28_AB_removeB_A">
+        <methods>
+          <include name="initialize"/>
+          <include name="testGet_validIndex" invocation-numbers="0"/>
+          <include name="testContains_validElement" invocation-numbers="0"/>
+          <include name="testIndexOf_validElement" invocation-numbers="0"/>
+          <include name="testLast"/>
+          <include name="testAddAfter_validElement" invocation-numbers="0"/>
+          <include name="testRemove_validIndex" invocation-numbers="0"/>
+          <include name="testFirst"/>
+          <include name="testRemove_validElement" invocation-numbers="0"/>
+          <include name="testRemoveFirst"/>
+          <include name="testRemoveLast"/>
+        </methods>
+      </class> <!-- Test_28_AB_removeB_A -->
+    </classes>
+  </test> <!-- Good List(failed) -->
+</suite> <!-- Failed suite [List Testing 2] -->
